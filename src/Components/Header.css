@@ -1,0 +1,20 @@
+.header-root {
+  width: 100%;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-background {
+  background-image: url('/image/hero.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .hero-background {
+    height: 50vh;
+  }
+}

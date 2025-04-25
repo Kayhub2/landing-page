@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+  }
