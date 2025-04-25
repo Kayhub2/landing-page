@@ -1,12 +1,38 @@
-# React + Vite
+Landing Page Project
+A responsive landing page built with React and Tailwind CSS, deployed on Vercel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prerequisites
+- Node.js (version 14 or higher)
+- Git
+- A code editor or IDE
+- Familiarity with React and Tailwind CSS
 
-Currently, two official plugins are available:
+Getting Started
+1. Clone the repository: git clone https://github.com/Kayhub2/landing-page.git
+2. Navigate to the project directory: cd landing-page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+1. Install dependencies: npm install
 
-## Expanding the ESLint configuration
+Running the Project
+1. Start the development server: npm run dev
+2. Open your browser and navigate to http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment
+1. Install Vercel CLI: npm install -g vercel
+2. Deploy to Vercel: vercel
+3. Follow the prompts to link your GitHub repository and configure project settings
+
+Project Structure
+- src/: Source code for the application
+- public/: Static assets
+- components/: Reusable React components
+- tailwind.config.js: Tailwind CSS configuration file
+
+Technologies Used
+- React
+- Tailwind CSS
+- Vercel
+
+Contributing
+Feel free to fork the repository and submit pull requests.
